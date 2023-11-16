@@ -4,7 +4,9 @@ const Corpo = () => {
   return (
     <div className='corpo'>
         <div className='caixa'>
-            <h1>Olá</h1>
+            <div className='buscador'>
+                <input type="search" className='barra_pesquisa' placeholder="Search" /><button className='btn_ir'>Ir</button>
+            </div>
         </div>
     </div>
   )
