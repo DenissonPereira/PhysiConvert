@@ -8,7 +8,7 @@ const Corpo = () => {
           <div className='caixa'>
               <p>PhysiConvert</p>
               <div className='buscador'>
-                  <input type="search" className='barra_pesquisa' placeholder="Search" /><button className='btn_ir'>Ir</button>
+                  <input type="search" className='barra_pesquisa' placeholder="         Pesquise aqui..." /><button className='btn_ir'>Ir</button>
               </div>
         </div>
         </div>
