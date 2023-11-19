@@ -17,6 +17,26 @@ const Corpo = () => {
               <strong>PhysiConvert:</strong> Simplificando o Mundo Físico, Unidade por Unidade.
             </p>
           </div>
+          <div className='caixas'>
+            <div className='caixa2'>
+            <figure>
+              <img src="../src/image/atomo.png" alt="atomo" />
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus dolor omnis blanditiis in.</p>
+            </div>
+            <div className='caixa2'>
+            <figure>
+              <img src="../src/image/atomo.png" alt="atomo" />
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus dolor omnis blanditiis in.</p>
+            </div>
+            <div className='caixa2'>
+            <figure>
+              <img src="../src/image/atomo.png" alt="atomo" />
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus dolor omnis blanditiis in.</p>
+            </div>
+          </div>
         </div>
     </div>
   )

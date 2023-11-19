@@ -1,10 +1,16 @@
 @use '../variables'
 
+.corpo
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
 .corpo1
     display: flex
     align-items: center
     justify-content: center
-    width: 100vw
+    width: 99vw
     height: 40rem
     background-image: url('../src/image/plano.jpg')
     background-size: cover
@@ -44,3 +50,19 @@
     padding: 2rem
     text-align: center
     font-size: variables.$slogam
+
+.caixas
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    text-align: center
+    width: 70rem
+
+    img
+        width: 20rem
+        height: 20rem
+        border-radius: variables.$borda
+
+    p
+        padding: 1rem
