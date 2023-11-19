@@ -1,0 +1,48 @@
+@use '../mixins'
+@use '../variables'
+
+@media (max-width: 720px)
+    .menu
+        @include mixins.center
+        ul
+            flex-direction: column
+            font-size: 1rem
+
+    .caixa
+        p
+            font-size: 3rem
+            text-align: center
+
+    .buscador
+        display: flex
+        flex-direction: column
+        align-content: center
+        justify-content: center
+        align-items: center
+
+    .barra_pesquisa
+        width: 15rem
+            
+    .conteudo
+        p
+            font-size: .6rem
+
+    .caixas
+        display: grid
+        grid-row: inherit
+        p
+            font-size: .5rem
+
+    .convesores
+        padding: .5rem
+        margin-bottom: .5rem
+        p
+            font-size: 1rem
+
+    .caixa_conversores
+        display: flex
+        flex-direction: column
+        width: 15rem
+        p
+            margin-bottom: .1rem
+            margin-top: 0.3rem

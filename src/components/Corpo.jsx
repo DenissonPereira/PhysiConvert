@@ -1,4 +1,5 @@
 import '../styles/components/Corpo.sass'
+import '../styles/sass/responsivo_main.sass'
 
 const Corpo = () => {
   return (

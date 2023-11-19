@@ -1,4 +1,5 @@
 import '../styles/components/Header.sass'
+import '../styles/sass/responsivo_main.sass'
 
 const Header = () => {
   return (
