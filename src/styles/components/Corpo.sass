@@ -1,12 +1,12 @@
 @use '../variables'
 
-.corpo
+.corpo1
     display: flex
     align-items: center
     justify-content: center
-    width: 100%
+    width: 100vw
     height: 40rem
-    background-image: url('../src/image/plano.png')
+    background-image: url('../src/image/plano.jpg')
     background-size: cover
     background-repeat: no-repeat
     background-position: center
@@ -22,6 +22,25 @@
     height: 4rem
 
 .caixa
+    background-color: rgba(255, 255, 255, 0.397)
+    border-radius: variables.$borda
+    padding: 2rem
+    backdrop-filter: blur(30px)
+    border: 1px solid black
+
     p
         font-size: 10rem
         margin-bottom: 3rem
+        text-shadow: .3rem 0rem 0rem black
+        color: variables.$cor-terciaria
+
+.conteudo
+    display: flex
+    flex-direction: column
+    align-content: center
+    justify-content: center
+
+.slogam
+    padding: 2rem
+    text-align: center
+    font-size: variables.$slogam
