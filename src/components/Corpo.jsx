@@ -37,6 +37,21 @@ const Corpo = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus dolor omnis blanditiis in.</p>
             </div>
           </div>
+          <div className='caixa_conversores'> 
+            <p>Conversores Populares</p>
+            <div className='convesores'>
+              <p>fejfoijrfjorfrfr</p>
+            </div>
+            <div className='convesores'>
+              <p>fejfoijrfjorfrfr</p>
+            </div>
+            <div className='convesores'>
+              <p>fejfoijrfjorfrfr</p>
+            </div>
+            <div className='convesores'>
+              <p>fejfoijrfjorfrfr</p>
+            </div>
+          </div>
         </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import Corpo from './components/Corpo'
 import Header from './components/Header'
+import SocialNetworks from './components/SocialNetworks'
 import './styles/main.sass'
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
       <div className='corpo-container'>
         <Corpo />
       </div>
+      <footer className='footer'>
+        <SocialNetworks />
+      </footer>
     </div>
   )
 }
