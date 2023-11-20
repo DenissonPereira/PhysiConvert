@@ -12,9 +12,10 @@ const Corpo = () => {
     <div className='corpo'>
       <div className='corpo1'>
         <div className='caixa'>
-          <p>PhysiConvert</p>
+          <p title='PhysiConvert'><span className='black'>Physi</span><span className='verde'>Convert</span></p>
           <div className='buscador'>
             <input
+              title='Pesquise aqui'
               type="search"
               id='searchInput'
               className='barra_pesquisa'
@@ -23,6 +24,7 @@ const Corpo = () => {
               onChange={(e) => setSearchKeyword(e.target.value)}
             />
             <button 
+            title='Ir'
             onClick={window.pesquisar} 
             className='btn_ir' 
             id='meuBotao'
