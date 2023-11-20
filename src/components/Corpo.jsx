@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Avatar from '../image/atomo.png'
 import '../styles/components/Corpo.sass';
 import '../styles/sass/responsivo_main.sass';
 import '../scripts/pesquisa';
@@ -33,19 +34,19 @@ const Corpo = () => {
         <div className='caixas'>
           <div className='caixa2'>
             <figure>
-              <img src="../src/image/atomo.png" alt="atomo" />
+              <img src={Avatar} alt="atomo" />
             </figure>
             <p>Loorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus dolor omnis blanditiis in.</p>
           </div>
           <div className='caixa2'>
             <figure>
-              <img src="../src/image/atomo.png" alt="atomo" />
+              <img src={Avatar} alt="atomo" />
             </figure>
             <p>Lorm ipsum dolor sit amet consectetur adipisicing elit. Amet minus dolor omnis blanditiis in.</p>
           </div>
           <div className='caixa2'>
             <figure>
-              <img src=".././src/image/atomo.png" alt="atomo" />
+              <img src={Avatar} alt="atomo" />
             </figure>
             <p>Looorem ipsuum dolor sit ametkk consectetur adipisicing elit. Amet minus dolor omnis blanditiis in.</p>
           </div>
