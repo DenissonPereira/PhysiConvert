@@ -22,7 +22,11 @@ const Corpo = () => {
               value={searchKeyword}
               onChange={(e) => setSearchKeyword(e.target.value)}
             />
-            <button onClick={window.pesquisar} className='btn_ir'>Ir</button>
+            <button 
+            onClick={window.pesquisar} 
+            className='btn_ir' 
+            id='meuBotao'
+            >Ir</button>
           </div>
         </div>
       </div>

@@ -22,7 +22,8 @@
     width: 45rem
     height: 4rem
     border-radius: variables.$borda
-    box-shadow: inset 5px 5px 10px rgba(150, 90, 90, 0.3)
+    box-shadow: inset 5px 5px 10px #f2922542
+    padding: 1rem
 
 .buscador
     display: flex
@@ -32,6 +33,11 @@
 .btn_ir
     width: 10rem
     height: 4rem
+    border: 1px solid black 
+    background: linear-gradient(to right, #ffcc00, #ff3300)
+    margin-left: .1rem 
+    cursor: pointer
+
 
 .caixa
     background-color: rgba(255, 255, 255, 0.397)
@@ -43,8 +49,9 @@
     p
         font-size: 10rem
         margin-bottom: 3rem
-        text-shadow: .3rem 0rem 0rem black
-        color: variables.$cor-terciaria
+        text-shadow: .3rem 0rem 0rem variables.$cor-secundaria
+        color: variables.$cor-primaria
+
 
 .conteudo
     display: flex

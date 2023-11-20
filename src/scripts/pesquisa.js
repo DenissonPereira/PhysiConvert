@@ -1,3 +1,14 @@
+document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('keyup', function (event) {
+      if (event.key === 'Enter') {
+        var botao = document.getElementById('meuBotao');
+        if (botao) {
+          botao.click();
+        }
+      }
+    });
+  });
+
 function pesquisar() {
     const searchInput = document.getElementById('searchInput');
     const keyword = searchInput.value.toLowerCase();
