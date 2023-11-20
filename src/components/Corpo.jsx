@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Avatar from '../image/atomo.png'
+import Back from '../image/plano.jpg'
 import '../styles/components/Corpo.sass';
 import '../styles/sass/responsivo_main.sass';
 import '../scripts/pesquisa';

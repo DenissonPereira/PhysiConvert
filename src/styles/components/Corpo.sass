@@ -13,7 +13,7 @@
     justify-content: center
     width: 99vw
     height: 40rem
-    background-image: url('../src/image/plano.jpg')
+    background-image: url('../../image/plano.jpg')
     background-size: cover
     background-repeat: no-repeat
     background-position: center
@@ -74,24 +74,29 @@
 
 .caixa_conversores
     cursor: pointer
-    width: 50rem
-    :hover
-        background-color: variables.$cor-terciaria
+    width: 60rem
+
     p
-        margin-top: 3rem
+        margin-top: 2rem
         text-align: center
         font-size: 55px
         margin-bottom: 1rem
 
-.convesores
+.conversores
     text-align: center
     background-color: white
     border-radius: variables.$borda
-    padding: 1rem
+    padding: .1rem
     margin-bottom: 1rem
+    :hover
+        padding: 1rem
+        margin-bottom: 1rem
+        background-color: variables.$cor-terciaria
+        font-size: 5rem
+        transition: 1s
 
     p
-        font-size: 50px
+        font-size: 4rem
 
 .roda_pe
     text-align: center
