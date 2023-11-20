@@ -35,19 +35,19 @@ const Corpo = () => {
             <figure>
               <img src="../src/image/atomo.png" alt="atomo" />
             </figure>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus dolor omnis blanditiis in.</p>
-          </div>
-          <div className='caixa2'>
-            <figure>
-              <img src="../src/image/atomo.png" alt="atomo" />
-            </figure>
             <p>Loorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus dolor omnis blanditiis in.</p>
           </div>
           <div className='caixa2'>
             <figure>
               <img src="../src/image/atomo.png" alt="atomo" />
             </figure>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus dolor omnis blanditiis in.</p>
+            <p>Lorm ipsum dolor sit amet consectetur adipisicing elit. Amet minus dolor omnis blanditiis in.</p>
+          </div>
+          <div className='caixa2'>
+            <figure>
+              <img src=".././src/image/atomo.png" alt="atomo" />
+            </figure>
+            <p>Looorem ipsuum dolor sit ametkk consectetur adipisicing elit. Amet minus dolor omnis blanditiis in.</p>
           </div>
         </div>
         <div className='caixa_conversores'> 
