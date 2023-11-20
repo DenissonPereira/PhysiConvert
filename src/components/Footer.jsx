@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <div className='roda_pe'>
         <p>
-            Construido por Denisson Pereira
+          &copy; 2023 <span>Denisson Pereira</span>. 
         </p>
-        <p>2023</p>
+        <p>Todos os direitos reservados.</p>
     </div>
   )
 }

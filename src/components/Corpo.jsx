@@ -35,7 +35,7 @@ const Corpo = () => {
       <div className='conteudo'>
         <div className='slogam'>
           <p>
-            <strong>PhysiConvert:</strong> Simplificando o Mundo Físico, Unidade por Unidade.
+            <span>PhysiConvert:</span> Simplificando o Mundo Físico, Unidade por Unidade.
           </p>
         </div>
         <div className='caixas'>
@@ -59,7 +59,7 @@ const Corpo = () => {
           </div>
         </div>
         <div className='caixa_conversores'> 
-          <p>Conversores Populares</p>
+          <p>&rArr; Conversores Populares &lArr;</p>
           <div className='conversores'>
             <p>fejfoijrfjorfrfr</p>
           </div>
